@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Krona+One&display=swap');
+body{
+    margin: 0;
+    font-family: 'Belleza', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 22px;
+    margin: 0;
+    color: white;
+    padding: 30px;
+    background-color: black;
+}
+
+header div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    height: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/food.jpg");
+}
+
+#content{
+    height: 497.875px;
+    width: 556.859px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #12232E;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 2px 19px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 19px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 19px -1px rgba(0,0,0,0.75);
+}
